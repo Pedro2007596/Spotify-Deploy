@@ -21,7 +21,7 @@ export default function Header() {
             <input 
                 type="text" 
                 id="search" 
-                className="rounded-full text-white w-96 h-10 indent-10 outline-none bg-gray-900 focus:outline-2 focus:outline-gray-50 transition-all duration-500 ease-in-out"
+                className="rounded-full text-green-500 w-96 h-10 indent-10 outline-none bg-gray-900 focus:outline-2 focus:outline-green-500 transition-all duration-500 ease-in-out"
                 placeholder="Pesquise seu artista favorito..." 
                 value={search}
                 onChange={handleSearch}
@@ -32,7 +32,7 @@ export default function Header() {
             <nav className="flex gap-5 items-center">
                 <NavLink to="/" className="text-2xl">Home</NavLink>
                 <button 
-                    className="text-xl font-medium bg-white rounded-full text-gray-900 px-4 py-2 hover:scale-105 transition duration-200"
+                    className="text-xl font-medium bg-green-500 rounded-full text-gray-900 px-4 py-2 hover:scale-105 transition duration-200"
                     onClick={() => setIsLogged(!isLogged)}
                     >{isLogged? 'Logout' : 'Login'}</button>
             </nav>
