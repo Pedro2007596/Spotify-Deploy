@@ -16,7 +16,7 @@ export default function Header() {
     }
     return (
         <header className="flex justify-around w-full h-28 items-center">
-            <h1 className="text-4xl font-bold">SpotifyDaShopee</h1>
+            <h1 className="text-4xl font-bold">Music</h1>
             <form className="relative">
             <input 
                 type="text" 

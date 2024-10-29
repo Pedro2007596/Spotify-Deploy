@@ -5,7 +5,7 @@ dotenv.config();
 const dbPassword = process.env.REACT_DB_PASSWORD;
 
 export default async function conectaNaDb(){
-    mongoose.connect(`mongodb+srv://admin:${dbPassword}@cluster0.7txhn.mongodb.net/Spotify?retryWrites=true&w=majority&appName=Cluster0`);
+    mongoose.connect(`mongodb+srv://b4rr1gameplay:${dbPassword}@spotify.smm0e.mongodb.net/?retryWrites=true&w=majority&appName=Spotifyd6VDeWheABTrInPJ`);
 
     return mongoose.connection;
 }
